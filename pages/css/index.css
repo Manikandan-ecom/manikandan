@@ -57,7 +57,7 @@ nav{
 }
 .head{
     width: 100%;
-    height: 135vh;
+    height: 120vh;
     background-image: url(https://demo-kalles-4-2.myshopify.com/cdn/shop/files/hk2d.jpg?v=1651824484);
     background-position: center;
     text-align: center;
@@ -108,8 +108,8 @@ nav{
     color: rgb(166,135,135);
 }
 .nav-menu-1{
-    width: 100%;
-    height: 10%;
+    /* width: 100%; */
+    /* height: 10%; */
     margin: 0 auto;
     text-decoration: none;
     display: flex;
@@ -118,10 +118,10 @@ nav{
     background-color: white;
     align-items: center;
     padding-top: 20px;
-    /* gap: 30px; */
+    gap: 30px;
 }
 .btn-1{
-    padding: 30px 40px;
+    padding: 40px 80px;
     background-color:rgb(255,255,255);
     border-color: rgb(221,221,221);
 }
@@ -184,6 +184,7 @@ nav{
     position: absolute;
     top: 0;
     left: 0;
+    object-fit: cover;
 }
 .name{
     text-decoration: none;
@@ -322,6 +323,7 @@ nav{
     width: 100%;
     height: 85%;
     position:absolute;
+    object-fit:cover ;
 }
 .product-2-name{
     list-style: none;
@@ -636,7 +638,7 @@ nav{
     }
     .nav-icon{
         align-items: center;
-        padding-top: 45px;
+        /* padding-top: 45px; */
     }
     .head{
         width: 100%;
@@ -648,7 +650,7 @@ nav{
     }
     .headline {
         width: 80%;
-        height: 10vh;
+        height: 20vh;
         margin: 0 auto;
         text-align: center;
     }
@@ -664,19 +666,19 @@ nav{
     }
     .nav-menu-1 {
         /* padding-top: 20px; */
-        /* gap: 30px; */
+        gap: 10px;
     }
     .container {
-        /* padding-top: 10px; */
-        height: 50vh;
+        padding-top: 80px;
+        height: 70vh;
     }
     .image-1 {
         width: 100%;
-        height: 60vh;
+        height:;
         /* padding-top: 90px; */
     }
     .name {
-        padding-top: 50px;
+        /* padding-top: 10px; */
     }
     .product-icon {
         bottom: 35%;
@@ -708,10 +710,16 @@ nav{
         gap: 10px;
     }
     .pro-img-2 {
+        height: 85%;
+    }
+    .product-2-img-2 {
+        /* width: 100%; */
         height: 80%;
+        /* position: absolute; */
+        object-fit: cover;
     }
     .sample {
-        width: 35%;
+        width: 40%;
     }  
     .bottom {
         height: 35vh;
@@ -725,12 +733,22 @@ nav{
         width: 90%;
         align-items: center;
 }
+
 }
 @media(max-width:600px){
     .img {
         height: 20px;
         padding-right:20px;
     }
+    .head{
+        height: 100vh;
+    }
+    .headline {
+        padding-top: 20px;
+        font-size: 25px;
+    }
+    
+    
 
 }
 
